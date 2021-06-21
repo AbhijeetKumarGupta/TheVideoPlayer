@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #54c3ef;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+i {
+  margin-right: 20px;
+}
+
+i,
+p {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-top: 1px solid #ccc;
+  padding-top: 16px;
+}
+
+#main-container {
+  padding: 4% 16%;
+}
+
+#back-to-homepage {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  color: #fff748;
+  font-size: 20px;
+}
+
+#main-heading {
+  font-family: "Caveat Brush", cursive;
+  font-size: 90px;
+  text-align: center;
+  color: #fad744;
+  text-shadow: 2px 5px #2b3252;
+  border-top: none;
+  margin: 0;
+}
+
+#player-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  border-radius: 6px;
+  padding: 16px;
+  box-sizing: border-box;
+  margin-top: 36px;
+}
+
+#playlist-wrapper {
+  border-left: 1px solid #ccc;
+  width: 30%;
+  margin-left: 16px;
+  padding-left: 20px;
+}
+
+#player-div {
+  width: 70%;
+}
+
+#vid-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+#vid-des {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  margin-top: 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.playlist-card {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.active-card {
+  border: 4px solid #fad744;
+}
+
+.thumbnail {
+  display: block;
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#video-player {
+  width: 100%;
+}
