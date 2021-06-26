@@ -133,7 +133,7 @@ $(document).ready(function () {
     playlistDiv.append(card);
 
     card.click(function () {
-      idCard = card.attr("id");
+      var idCard = card.attr("id");
       idCard = idCard.split(" ");
       getVideo(idCard[1]);
       $(".active-card").attr("class", "playlist-card");
